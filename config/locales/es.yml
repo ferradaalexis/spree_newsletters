@@ -5,4 +5,5 @@ es:
   spree:
     newsletter:
       suscribe: Suscríbete
+      suscribed: Gracias por suscribirte
       email: Escribe tu Correo

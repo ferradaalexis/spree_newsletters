@@ -5,4 +5,5 @@ en:
   spree:
     newsletter:
       suscribe: Suscribe
+      suscribed: Thanks for subscribing
       email: Enter your Email
