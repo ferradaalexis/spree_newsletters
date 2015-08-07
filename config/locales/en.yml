@@ -6,4 +6,8 @@ en:
     newsletter:
       suscribe: Suscribe
       suscribed: Thanks for subscribing
+      list_already_subscribed: "%{email} already subscribed"
+      list_does_not_exist: "Mailchimp List does not exist"
+      invalid: "Email not be valid"
+      unknow_error: "An unknown Mailchimp error occurred"
       email: Enter your Email
