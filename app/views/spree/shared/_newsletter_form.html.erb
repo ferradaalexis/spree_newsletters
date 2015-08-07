@@ -1,0 +1,10 @@
+<div data-hook="newslettter-form">
+  <%= form_for :newsletter, url: spree.newsletters_path, html: {class: 'form-inline'} do |f| %>
+    <div class="form-group">
+      <%= f.label :email, Spree.t(:suscribe, scope: :newsletter) %>
+      <%= f.email_field :email, class: 'form-control', placeholder: Spree.t(:email, scope: :newsletter), required: true %>
+    </div>
+
+    <%= submit_tag Spree.t(:suscribe, scope: :newsletter), class: 'btn btn-default' %>
+  <% end %>
+</div>
