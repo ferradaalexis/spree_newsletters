@@ -3,8 +3,8 @@ Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.name        = 'spree_newsletters'
   s.version     = '3.0.0'
-  s.summary     = 'Allow mailchimp newsletter subscription on Spree stores'
-  s.description = 'Allow mailchimp newsletter subscription on Spree stores'
+  s.summary     = 'Allow Mailchimp newsletter subscription on Spree stores'
+  s.description = 'Allow Mailchimp newsletter subscription on Spree stores'
   s.required_ruby_version = '>= 2.2.1'
 
   s.author    = 'Marcelo Espina'

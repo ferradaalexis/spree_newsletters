@@ -1,7 +1,7 @@
 SpreeNewsletters
 ================
 
-Introduction goes here.
+Allow Mailchimp newsletter subscription on Spree stores.
 
 Installation
 ------------
@@ -18,6 +18,25 @@ Bundle your dependencies and run the installation generator:
 bundle
 bundle exec rails g spree_newsletters:install
 ```
+
+Configuration
+-------------
+
+After installing, you need to set configurations MailChimp, establishing the settings on your secrets file as shown below:
+
+```
+development:
+  ...
+  mailchimp_api_key: MAILCHIMP_API_KEY
+  mailchimp_list_id: MAILCHIMP_LIST_ID
+
+production:
+  ...
+  mailchimp_api_key: MAILCHIMP_API_KEY
+  mailchimp_list_id: MAILCHIMP_LIST_ID
+
+```
+
 
 Testing
 -------
