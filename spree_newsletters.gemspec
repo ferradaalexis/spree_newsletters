@@ -5,7 +5,7 @@ Gem::Specification.new do |s|
   s.version     = '3.4.0'
   s.summary     = 'Allow Mailchimp newsletter subscription on Spree stores'
   s.description = 'Allow Mailchimp newsletter subscription on Spree stores'
-  s.required_ruby_version = '>= 2.2.1'
+  s.required_ruby_version = '~> 2.4.0'
 
   s.author    = 'Marcelo Espina'
   s.email     = 'mespina@acid.cl'
